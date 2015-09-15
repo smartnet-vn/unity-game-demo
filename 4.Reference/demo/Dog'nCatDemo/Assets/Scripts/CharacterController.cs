@@ -34,7 +34,7 @@ public class CharacterController : MonoBehaviour {
 	// Update is called once per frame
 	void Update() {
 		// Controls
-		if(Input.GetKey(KeyCode.UpArrow)) {
+		if(Input.GetKey(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
 			Debug.Log ("Character is jumping!");
 			anim.SetBool ("onGround", false);
 			rigid.velocity = Vector2.zero;

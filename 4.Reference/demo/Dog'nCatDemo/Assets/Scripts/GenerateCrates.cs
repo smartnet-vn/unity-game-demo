@@ -8,11 +8,12 @@ public class GenerateCrates : MonoBehaviour {
 	// Use this for initialization
 	void Start()
 	{
-		InvokeRepeating("CreatecCrates", 1f, 4f);
+		Invoke("CreatecCrates", Random.Range(0, 1f));
 	}
 	
 	void CreatecCrates()
 	{
 		Instantiate(crates);
+		Invoke ("CreatecCrates", Random.Range(1f, 3f));
 	}
 }
