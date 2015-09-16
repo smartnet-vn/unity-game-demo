@@ -5,10 +5,11 @@ public class MainController : MonoBehaviour {
 
 	// object
 	public GameObject player;
+	public static bool isStartGame = false;
+	public int score = 0;
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("Game Start !");
 
 	}
 	

@@ -8,7 +8,7 @@ public class CharacterController : MonoBehaviour {
 	Animator anim;
 
 	// jump
-	public Vector2 jumpForce = new Vector2(0, 300);
+	public Vector2 jumpForce = new Vector2(0, 1.5f);
 	bool isJumpping = false;
 
 	// Ground
@@ -34,11 +34,14 @@ public class CharacterController : MonoBehaviour {
 	// Update is called once per frame
 	void Update() {
 		// Controls
-		if(Input.GetKey(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
-			Debug.Log ("Character is jumping!");
-			anim.SetBool ("onGround", false);
-			rigid.velocity = Vector2.zero;
-			rigid.AddForce(jumpForce);
+		if(MainController.isStartGame) {
+			if(Input.GetKey(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
+				Debug.Log ("Character is jumping!");
+				isJumpping = true;
+				anim.SetBool ("onGround", false);
+				rigid.velocity = Vector2.zero;
+				rigid.AddForce(jumpForce);
+			}
 		}
 	}
 
@@ -54,5 +57,6 @@ public class CharacterController : MonoBehaviour {
 	void Die()
 	{
 		Application.LoadLevel(Application.loadedLevel);
+		MainController.isStartGame = false;
 	}
 }
