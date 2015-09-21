@@ -37,12 +37,16 @@ public class AIController : MonoBehaviour {
 	// OnCollisionEnter2D
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		if(collision.gameObject.name == "Crate(Clone)") {
+		switch(collision.gameObject.name) {
+		case "Crate(Clone)":
 			Debug.Log ("Dog: Jumping!!!");
-			isJumpping = true;
-			anim.SetBool ("onGround", false);
-			rigid.velocity = Vector2.zero;
-			rigid.AddForce(jumpForce);
+
+			break;
+		case "Coin(Clone)":
+			transform.Translate(Vector2.right);
+			transform.eulerAngles = new Vector2(0, 0);
+			Destroy(collision.gameObject);
+			break;
 		}
 	}
 }

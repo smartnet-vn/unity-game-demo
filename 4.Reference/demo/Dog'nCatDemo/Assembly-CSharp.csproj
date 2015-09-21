@@ -47,14 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AIController.cs" />
      <Compile Include="Assets\Scripts\CharacterController.cs" />
-     <Compile Include="Assets\Scripts\Crates.cs" />
-     <Compile Include="Assets\Scripts\GenerateCrates.cs" />
+     <Compile Include="Assets\Scripts\GenerateObstacles.cs" />
      <Compile Include="Assets\Scripts\GenerateStartGameButtons.cs" />
      <Compile Include="Assets\Scripts\MainController.cs" />
-     <Compile Include="Assets\Scripts\One.cs" />
-     <Compile Include="Assets\Scripts\StartGameButtons.cs" />
-     <Compile Include="Assets\Scripts\Three.cs" />
-     <Compile Include="Assets\Scripts\Two.cs" />
+     <Compile Include="Assets\Scripts\Obstacles.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

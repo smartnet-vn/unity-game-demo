@@ -6,7 +6,7 @@ public class GenerateStartGameButtons : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Instantiate(startGameButtons, new Vector3(0,0, -5), Quaternion.identity);
+		Instantiate(startGameButtons, new Vector3(0,1, -5), Quaternion.identity);
 	}
 	
 	// Update is called once per frame

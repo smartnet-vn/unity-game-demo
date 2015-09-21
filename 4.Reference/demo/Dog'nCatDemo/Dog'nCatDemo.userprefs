@@ -1,15 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StartGameButtons.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterController.cs">
     <Files>
-      <File FileName="Dog'nCatDemo.sln" Line="40" Column="10" />
-      <File FileName="Assets\Scripts\GenerateCrates.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CharacterController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Crates.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainController.cs" Line="40" Column="43" />
+      <File FileName="Assets\Scripts\GenerateObstacles.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharacterController.cs" Line="93" Column="18" />
+      <File FileName="Assets\Scripts\Obstacles.cs" Line="6" Column="42" />
       <File FileName="Assets\Scripts\AIController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\StartGameButtons.cs" Line="43" Column="38" />
-      <File FileName="Assets\Scripts\GenerateStartGameButtons.cs" Line="9" Column="76" />
+      <File FileName="Assets\Scripts\GenerateStartGameButtons.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
