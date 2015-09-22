@@ -1,6 +1,7 @@
 1. Folder Structure:
 
 FightingDemo
+    
     --------Assets
               ------Prefabs
               ------Resources
