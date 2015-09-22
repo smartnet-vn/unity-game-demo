@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: f62f03dd0e50bb740a36f6d00715ac8f
+timeCreated: 1442834489
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: test-animation_0
+    21300002: test-animation_1
+    21300004: test-animation_2
+    21300006: test-animation_3
+    21300008: test-animation_4
+    21300010: test-animation_5
+    21300012: test-animation_6
+    21300014: test-animation_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: test-animation_0
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1448
+        width: 443
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test-animation_1
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1470
+        width: 462
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test-animation_2
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1470
+        width: 360
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test-animation_3
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1847
+        width: 92
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test-animation_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 753
+        width: 613
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test-animation_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 762
+        width: 438
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test-animation_6
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 722
+        width: 349
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test-animation_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 138
+        width: 512
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
