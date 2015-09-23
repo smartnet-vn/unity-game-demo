@@ -9,6 +9,7 @@ FightingDemo
                        ---------Characters
               ------Scenes
               ------Scripts
+              ------Sounds              
     --------Library
     --------ProjectSettings
     --------Release
