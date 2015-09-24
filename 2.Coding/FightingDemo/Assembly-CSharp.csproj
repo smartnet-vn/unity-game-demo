@@ -46,8 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Common\CharacterInfo.cs" />
+     <Compile Include="Assets\Scripts\MainController.cs" />
      <Compile Include="Assets\Scripts\Model\Background.cs" />
      <Compile Include="Assets\Scripts\Model\Beast.cs" />
+     <Compile Include="Assets\Scripts\Model\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Model\Man.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
