@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CharacterInfo {
 
@@ -131,11 +132,11 @@ public class CharacterInfo {
 	public class Effects {
 
 		// TODO
-		public float reflectDamage;
-		public int stunned;
-		public int activeSkill;
-		public float bleeded;
-		public Object increaseAttributes;
+		public object[] reflectDamage = new object[2]; // Chance: %X in y turns | 0: X, 1: y
+		public int stunned = 1; // stun in x turns
+		public object[] activeSkill = new object[2]; // Chance: %X, Skill: Y | 0: X, 1: y
+		public object[] bleeded = new object[2]; // Damage: x%*totalHP [x < 10] over y turn | 0: X, 1: y
+		public object[] increaseAttributes = new object[3]; // attribute no X, increase y percent / point() in z turn | 0: X, 1: y, 2: z
 
 		public Effects() {
 		}
