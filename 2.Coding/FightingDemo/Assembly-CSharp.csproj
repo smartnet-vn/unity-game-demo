@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Model\Beast.cs" />
      <Compile Include="Assets\Scripts\Model\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Model\Man.cs" />
+     <Compile Include="Assets\Scripts\skill.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
