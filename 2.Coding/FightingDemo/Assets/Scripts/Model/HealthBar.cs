@@ -7,7 +7,7 @@ public class HealthBar : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
@@ -15,7 +15,7 @@ public class HealthBar : MonoBehaviour {
 	
 	}
 
-	public void setInnerHealthBarWidth(float width) {
+	public void setInnerHealthBarWidthByPercent(float width) {
 		SpriteRenderer sr = InnerHealthBar.GetComponent<SpriteRenderer> ();
 		float prevWidth = sr.bounds.size.x;
 		sr.transform.localScale = new Vector2(width,1f);
